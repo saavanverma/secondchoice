@@ -1,0 +1,115 @@
+<head>
+    <title>Second Choice Haircutters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Second Choice Haircutters</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Our Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#booking">Book an Appointment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center text-white" style="background-image: url('https://images.unsplash.com/photo-1589876518759-5b460cabcc4c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-size: cover; background-position: center;">
+        <div class="container">
+            <h1 class="display-4">Welcome to Second Choice</h1>
+            <p class="lead">We offer a range of affordable hair services to meet your needs!</p>
+        </div>
+    </header>
+
+    <section id="services" class="container mt-5">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1593702275687-f8b402bf1fb5?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Haircut">
+                    <div class="card-body">
+                        <h5 class="card-title">Haircut - $25</h5>
+                        <p class="card-text">Get an amazing new look from our professioner cutters.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1470259078422-826894b933aa?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Hair Coloring">
+                    <div class="card-body">
+                        <h5 class="card-title">Hair Coloring - $15</h5>
+                        <p class="card-text">Get a tase of our expert coloring services. We only use the best quality dyes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://plus.unsplash.com/premium_photo-1661576849857-7b3bfc8374bd?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Styling">
+                    <div class="card-body">
+                        <h5 class="card-title">Hair Styling - $15</h5>
+                        <p class="card-text">Our creative stylers can get you ready for any occasion.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="container mt-5">
+        <h2 class="text-center mb-4">Book an Appointment</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="service" class="form-label">Service</label>
+                        <select class="form-select" id="service" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option value="haircut">Haircut</option>
+                            <option value="coloring">Hair Coloring</option>
+                            <option value="styling">Styling</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Preferred Date</label>
+                        <input type="date" class="form-control" id="date" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container mt-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>

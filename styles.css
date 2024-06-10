@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.navbar-brand {
+    font-size: 1.75em;
+}
+
+header {
+    padding: 6em 0;
+}
+
+header .lead {
+    font-size: 1.25em;
+}
+
+section {
+    padding: 4em 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
+
+.card-title {
+    font-size: 1.25em;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #555;
+}
+
+form .form-control, form .form-select {
+    margin-bottom: 1em;
+}
+
+form .btn {
+    background-color: #007bff;
+    border: none;
+}
+
+form .btn:hover {
+    background-color: #0056b3;
+}
